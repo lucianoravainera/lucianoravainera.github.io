@@ -1,7 +1,353 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html>  <!-- TP integrador Ravainera -->
+<html lang="es">
+<head>
+    <meta charset="UTF-8">  <!-- METADATO conjunto de caracteres -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--  -->
+    <link rel="stylesheet" href="styles/style.css"> <!-- link para el archivo CSS -->
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <script src="styles/scripts.js"></script>
+    <title>F1 2024 - Luciano Ravainera</title>
+</head>
 <body>
-<h1>LUCIANO RAVAINERA</h1>
-<p>Pagina de prueba</p>
+
+    <header>
+        <nav class="navbar" id="navbar">
+            <div class="logo">
+                <a href="#">F1 2024</a>
+            </div>
+            <ul class = "nav-links">             
+                <li><a href="#home">Home</a></li>
+                <li><a href="#acerca">Acerca</a></li>
+                <li><a href="#equipos">Equipos</a></li>
+                <li><a href="#pilotos">Pilotos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>      
+         <!-- texto explicativo de la pagina, texto explicativo breve del campeonato actual (cant pilotos, equipos, circuitos.) -->
+        <section id="home">
+            <img src="media/img//WilliamsFW46.webp" alt="Imagen de una cerveza Ogham Honey" class="img-inicio">           
+        </section>
+
+        <section id="acerca"></section>
+        <div class="video-container">
+            <video autoplay muted loop playsinline>
+              <source src="media/video/f1lasvegas.mp4" type="video/mp4">
+              Tu navegador no soporta el elemento de video.
+            </video>
+            <div class="descripcionVideo">
+              <h1>Bienvenidos!</h1>
+              <p>En este sitio podes encontrar toda la informacion de la temporada 2024 de la Formula 1</p>
+              <ul>
+                <li>Equipos</li>
+                <li>Pilotos</li>
+                <li>Circuitos (proximamente)</li>
+                <li>Tabla de Pilotos (proximamente)</li>
+                <li>Tabla de Constructores (proximamente)</li>
+              </ul> 
+              <a href="#contacto">Dejanos un comentario!</a>
+            </div>
+          </div>
+        </section>
+
+        <section id="equipos">
+            <h2>Todos los equipos de la temporada</h2>
+            <div class="container">
+                <div class="item" id="ferrari">
+                    <img src="media/img/ferrari.avif" alt="Imagen Scuderia Ferrari" class="img-scuderia">
+                    <div class="descripcion">
+                        <h2>Scuderia Ferrari</h2>
+                        <a href="https://www.formula1.com/en/teams/ferrari"target="_blank">+ info</a>
+                    </div>
+                </div>
+                <div class="item" id="mclaren">
+                    <img src="media/img/mclaren.avif" alt="Imagen McLaren" class="img-scuderia">
+                    <div class="descripcion">
+                        <h2>McLaren</h2>
+                        <a href="https://www.formula1.com/en/teams/mclaren"target="_blank">+ info</a>
+                    </div>
+                </div>
+                <div class="item" id="redbull">
+                    <img src="media/img/redbull.avif" alt="Imagen Red Bull" class="img-scuderia">
+                    <div class="descripcion">
+                        <h2>Red Bull Racing</h2>
+                        <a href="https://www.formula1.com/en/teams/red-bull-racing"target="_blank">+ info</a>
+                    </div>
+                </div>
+                <div class="item" id="mercedes">
+                    <img src="media/img/mercedes.avif" alt="Imagen Mercedes AMG" class="img-scuderia">
+                    <div class="descripcion">
+                        <h2>Mercedes-AMG</h2>
+                        <a href="https://www.formula1.com/en/teams/mercedes"target="_blank">+ info</a>
+                    </div>
+                </div>
+                <div class="item" id="astonmartin">
+                    <img src="media/img/astonmartin.avif" alt="Imagen Aston Martin" class="img-scuderia">
+                    <div class="descripcion">
+                        <h2>Aston Martin</h2>
+                        <a href="https://www.formula1.com/en/teams/aston-martin"target="_blank">+ info</a>
+                    </div>
+                </div>
+                <div class="item" id="alpine">
+                    <img src="media/img/alpine.avif" alt="Imagen Alpine" class="img-scuderia">
+                    <div class="descripcion">
+                        <h2>BWT Alpine</h2>
+                        <a href="https://www.formula1.com/en/teams/alpine"target="_blank">+ info</a>
+                    </div>
+                </div>
+                <div class="item" id="hass">
+                    <img src="media/img/haas.avif" alt="Imagen Hass" class="img-scuderia">
+                    <div class="descripcion">
+                        <h2>MoneyGram Haas</h2>
+                        <a href="https://www.formula1.com/en/teams/haas"target="_blank">+ info</a>
+                    </div>
+                </div>
+                <div class="item" id="rb">
+                    <img src="media/img/rb.avif" alt="Imagen rb" class="img-scuderia">
+                    <div class="descripcion">
+                        <h2>Visa Cash App RB</h2>
+                        <a href="https://www.formula1.com/en/teams/rb"target="_blank">+ info</a>
+                    </div>
+                </div>
+                <div class="item" id="williams">
+                    <img src="media/img/williams.avif" alt="Imagen williams" class="img-scuderia">
+                    <div class="descripcion">
+                        <h2>Williams Racing</h2>
+                        <a href="https://www.formula1.com/en/teams/williams"target="_blank">+ info</a>
+                    </div>
+                </div>
+                <div class="item" id="sauber">
+                    <img src="media/img/sauber.avif" alt="Imagen sauber" class="img-scuderia">
+                    <div class="descripcion">
+                        <h2>Kick Sauber</h2>
+                        <a href="https://www.formula1.com/en/teams/kick-sauber"target="_blank">+ info</a>
+                    </div>
+                </div>
+            </div>    
+    
+        </section>
+
+        <section id="pilotos">
+            <h2>Pilotos</h2>
+            <div class="container">
+                <div class="item" id="verstappen">
+                    <img src="media/img/verstappen.avif" alt="Foto Max Verstappen" class="img-scuderia">
+                    <div class="descripcionPiloto">
+                        <h2>1</h2>
+                        <h2>Max Verstappen</h2>
+                        <a href="#redbull">Red Bull Racing</a><br><br>
+                        <img src="https://media.formula1.com/image/upload/content/dam/fom-website/2018-redesign-assets/Flags%2016x9/netherlands-flag.png" alt="Bandera Holandesa" class="img-bandera">
+                    </div>
+                </div>
+                <div class="item" id="lando">
+                    <img src="media/img/norris.avif" alt="Foto Lando Norris" class="img-scuderia">
+                    <div class="descripcionPiloto">
+                        <h2>4</h2>
+                        <h2>Lando Norris</h2>
+                        <a href="#mclaren">McLaren</a><br><br>
+                        <img src="https://media.formula1.com/image/upload/content/dam/fom-website/2018-redesign-assets/Flags%2016x9/united-kingdom-flag.png" alt="Bandera Inglesa" class="img-bandera">
+                    </div>
+                </div>
+                <div class="item" id="leclerc">
+                    <img src="media/img/leclerc.avif" alt="Foto Charles Leclerc" class="img-scuderia">
+                    <div class="descripcionPiloto">
+                        <h2>16</h2>
+                        <h2>Charles Leclerc</h2>
+                        <a href="#ferrari">Ferrari</a><br><br>
+                        <img src="https://media.formula1.com/image/upload/content/dam/fom-website/2018-redesign-assets/Flags%2016x9/monaco-flag.png" alt="Bandera Monaco" class="img-bandera">
+                    </div>
+                </div>
+                <div class="item" id="piastri">
+                    <img src="media/img/piastri.avif" alt="Foto Oscar Piastri" class="img-scuderia">
+                    <div class="descripcionPiloto">
+                        <h2>81</h2>
+                        <h2>Oscar Piastri</h2>
+                        <a href="#ferrari">McLaren</a><br><br>
+                        <img src="https://media.formula1.com/image/upload/f_auto/q_auto/v1677244974/content/dam/fom-website/2018-redesign-assets/Flags%2016x9/australia-flag.png" alt="Bandera Australia" class="img-bandera">
+                    </div>
+                </div>
+                <div class="item" id="sainz">
+                    <img src="media/img/sainz.avif" alt="Foto Carlos Sainz" class="img-scuderia">
+                    <div class="descripcionPiloto">
+                        <h2>55</h2>
+                        <h2>Carlos Sainz</h2>
+                        <a href="#ferrari">Ferrari</a><br><br>
+                        <img src="https://media.formula1.com/image/upload/content/dam/fom-website/2018-redesign-assets/Flags%2016x9/spain-flag.png" alt="Bandera España" class="img-bandera">
+                    </div>
+                </div>
+                <div class="item" id="russell">
+                    <img src="media/img/russell.avif" alt="Foto George Russell" class="img-scuderia">
+                    <div class="descripcionPiloto">
+                        <h2>63</h2>
+                        <h2>George Russell</h2>
+                        <a href="#mercedes">Mercedes</a><br><br>
+                        <img src="https://media.formula1.com/image/upload/content/dam/fom-website/2018-redesign-assets/Flags%2016x9/united-kingdom-flag.png" alt="Bandera Inglesa" class="img-bandera">
+                    </div>
+                </div>
+                <div class="item" id="hamilton">
+                    <img src="media/img/hamilton.avif" alt="Foto Lewis Hamilton" class="img-scuderia">
+                    <div class="descripcionPiloto">
+                        <h2>44</h2>
+                        <h2>Lewis Hamilton</h2>
+                        <a href="#mercedes">Mercedes</a><br><br>
+                        <img src="https://media.formula1.com/image/upload/content/dam/fom-website/2018-redesign-assets/Flags%2016x9/united-kingdom-flag.png" alt="Bandera Inglesa" class="img-bandera">
+                    </div>
+                </div>
+                <div class="item" id="perez">
+                    <img src="media/img/perez.avif" alt="Foto Sergio Perez" class="img-scuderia">
+                    <div class="descripcionPiloto">
+                        <h2>11</h2>
+                        <h2>Sergio Perez</h2>
+                        <a href="#redbull">Red Bull Racing</a><br><br>
+                        <img src="https://media.formula1.com/image/upload/content/dam/fom-website/2018-redesign-assets/Flags%2016x9/mexico-flag.png" alt="Bandera Mexicana" class="img-bandera">
+                    </div>
+                </div>
+                <div class="item" id="alonso">
+                    <img src="media/img/alonso.avif" alt="Foto Fernando Alonso" class="img-scuderia">
+                    <div class="descripcionPiloto">
+                        <h2>14</h2>
+                        <h2>Fernando Alonso</h2>
+                        <a href="#astonmartin">Aston Martin</a><br><br>
+                        <img src="https://media.formula1.com/image/upload/content/dam/fom-website/2018-redesign-assets/Flags%2016x9/spain-flag.png" alt="Bandera España" class="img-bandera">
+                    </div>
+                </div>
+                <div class="item" id="hulkenberg">
+                    <img src="media/img/hulkenberg.avif" alt="Foto Nico Hulkenberg" class="img-scuderia">
+                    <div class="descripcionPiloto">
+                        <h2>27</h2>
+                        <h2>Nico Hulkenberg</h2>
+                        <a href="#hass">Hass</a><br><br>
+                        <img src="https://media.formula1.com/image/upload/f_auto/q_auto/v1677244972/content/dam/fom-website/2018-redesign-assets/Flags%2016x9/germany-flag.png" alt="Bandera Alemana" class="img-bandera">
+                    </div>
+                </div>
+                <div class="item" id="tsunoda">
+                    <img src="media/img/tsunoda.avif" alt="Foto Yuki Tsunoda" class="img-scuderia">
+                    <div class="descripcionPiloto">
+                        <h2>22</h2>
+                        <h2>Yuki Tsunoda</h2>
+                        <a href="#rb">RB</a><br><br>
+                        <img src="https://media.formula1.com/image/upload/content/dam/fom-website/2018-redesign-assets/Flags%2016x9/japan-flag.png" alt="Bandera japonesa" class="img-bandera">
+                    </div>
+                </div>
+                <div class="item" id="gasly">
+                    <img src="media/img/gasly.avif" alt="Foto Pierre Gasly" class="img-scuderia">
+                    <div class="descripcionPiloto">
+                        <h2>10</h2>
+                        <h2>Pierre Gasly</h2>
+                        <a href="#alpine">Alpine</a><br><br>
+                        <img src="https://media.formula1.com/image/upload/f_auto/q_auto/v1677244973/content/dam/fom-website/2018-redesign-assets/Flags%2016x9/france-flag.png" alt="Bandera francesa" class="img-bandera">
+                    </div>
+                </div>
+                <div class="item" id="stroll">
+                    <img src="media/img/stroll.avif" alt="Foto Lance Stroll" class="img-scuderia">
+                    <div class="descripcionPiloto">
+                        <h2>18</h2>
+                        <h2>Lance Stroll</h2>
+                        <a href="#astonmartin">Aston Martin</a><br><br>
+                        <img src="https://media.formula1.com/image/upload/content/dam/fom-website/2018-redesign-assets/Flags%2016x9/canada-flag.png" alt="Bandera Canada" class="img-bandera">
+                    </div>
+                </div>
+                <div class="item" id="ocon">
+                    <img src="media/img/ocon.avif" alt="Foto Esteban Ocon" class="img-scuderia">
+                    <div class="descripcionPiloto">
+                        <h2>31</h2>
+                        <h2>Esteban Ocon</h2>
+                        <a href="#alpine">Alpine</a><br><br>
+                        <img src="https://media.formula1.com/image/upload/content/dam/fom-website/2018-redesign-assets/Flags%2016x9/france-flag.png" alt="Bandera francesa" class="img-bandera">
+                    </div>
+                </div>
+                <div class="item" id="magnussen">
+                    <img src="media/img/magnussen.avif" alt="Foto Kevin Magnussen" class="img-scuderia">
+                    <div class="descripcionPiloto">
+                        <h2>20</h2>
+                        <h2>Kevin Magnussen</h2>
+                        <a href="#hass">Hass</a><br><br>
+                        <img src="https://media.formula1.com/image/upload/content/dam/fom-website/2018-redesign-assets/Flags%2016x9/denmark-flag.png" alt="Bandera Dinamarca" class="img-bandera">
+                    </div>
+                </div>
+                <div class="item" id="albon">
+                    <img src="media/img/albon.avif" alt="Foto Alexander Albon" class="img-scuderia">
+                    <div class="descripcionPiloto">
+                        <h2>23</h2>
+                        <h2>Alexander Albon</h2>
+                        <a href="#williams">Williams</a><br><br>
+                        <img src="https://media.formula1.com/image/upload/f_auto/q_auto/v1677244974/content/dam/fom-website/2018-redesign-assets/Flags%2016x9/thailand-flag.png" alt="Bandera Tailandia" class="img-bandera">
+                    </div>
+                </div>
+                <div class="item" id="colapinto">
+                    <img src="media/img/colapinto.avif" alt="Foto Franco Colapinto" class="img-scuderia">
+                    <div class="descripcionPiloto">
+                        <h2>43</h2>
+                        <h2>Franco Colapinto</h2>
+                        <a href="#williams">Williams</a><br><br>
+                        <img src="https://media.formula1.com/image/upload/f_auto/q_auto/v1724838011/fom-website/2018-redesign-assets/Flags%2016x9/argentina-flag.png" alt="La mejor de todas: Bandera Argentina" class="img-bandera">
+                    </div>
+                </div>
+                <div class="item" id="lawson">
+                    <img src="media/img/lawson.avif" alt="Foto Liam Lawson" class="img-scuderia">
+                    <div class="descripcionPiloto">
+                        <h2>30</h2>
+                        <h2>Liam Lawson</h2>
+                        <a href="#rb">RB</a><br><br>
+                        <img src="https://media.formula1.com/image/upload/content/dam/fom-website/2018-redesign-assets/Flags%2016x9/new-zealand-flag.png" alt="Bandera Nueva Zelanda" class="img-bandera">
+                    </div>
+                </div>
+                <div class="item" id="guanyu">
+                    <img src="media/img/zhou.avif" alt="Foto Zhou Guanyu" class="img-scuderia">
+                    <div class="descripcionPiloto">
+                        <h2>24</h2>
+                        <h2>Zhou Guanyu</h2>
+                        <a href="#sauber">Sauber</a><br><br>
+                        <img src="https://media.formula1.com/image/upload/f_auto/q_auto/v1677244974/content/dam/fom-website/2018-redesign-assets/Flags%2016x9/china-flag.png" alt="Bandera China" class="img-bandera">
+                    </div>
+                </div>
+                <div class="item" id="bottas">
+                    <img src="media/img/bottas.avif" alt="Foto Valtteri Bottas" class="img-scuderia">
+                    <div class="descripcionPiloto">
+                        <h2>77</h2>
+                        <h2>Valtteri Bottas</h2>
+                        <a href="#sauber">Sauber</a><br><br>
+                        <img src="https://media.formula1.com/image/upload/content/dam/fom-website/2018-redesign-assets/Flags%2016x9/finland-flag.png" alt="Bandera Finlandia" class="img-bandera">
+                    </div>
+                </div>
+                
+        </section>
+
+        <section id="contacto">
+            <h2>Envianos tu comentario</h2>
+            <form id="formulario" action="https://formspree.io/f/xyzyjbrk" method="POST">
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" id="nombre" maxlength="50" placeholder="Nombre" title="Ingrese su nombre" required/>
+                <label for="mail">Email</label>
+                <input type="email" name="mail" id="mail" maxlength="100" placeholder="ejemplo@gmail.com" title="Ingrese su Email" required>
+                <label for="comentarios">Comentarios</label>
+                <textarea name="comentarios" id="comentarios" maxlength="5000"
+                    placeholder="ingrese sus comentarios" title="Ingrese su comentario" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+
+    <footer>
+        
+        <section id="copy">        
+            <p class="copyright">&copy; 2024 Luciano Ravainera.</p>
+        </section>
+
+        <section id="redes">
+            <a href="https://github.com/lucianoravainera" target="_blank" rel="noopener noreferrer"><i class="fi fi-brands-github"></i></a>
+            <a href="https://www.formula1.com/" target="_blank" rel="noopener noreferrer"><i class="fi fi-brands-chromecast"></i></a>
+            <a href="https://www.instagram.com/lucho.ravainera/" target="_blank"rel="noopener noreferrer"><i class="fi fi-brands-instagram"></i></a>
+        </section>
+    </footer>
 </body>
 </html>

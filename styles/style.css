@@ -1,0 +1,396 @@
+/* iconos */
+@import url("https://cdn-uicons.flaticon.com/2.6.0/uicons-brands/css/uicons-brands.css");
+/* fuente */
+@import url("https://fonts.googleapis.com/css2?family=Doto:wght@300..700&family=Doto:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+/* general */
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #1d1d1b;
+  color: white;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* header */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #000000;
+  color: #fff;
+  font-family: "Doto", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.logo a {
+  color: #ff0000;
+  text-decoration: none;
+  font-size: 35px;
+}
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 5px 10px;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+  color: #ff0000;
+  background-color: #161515;
+  border-radius: 4px;
+}
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.menu-toggle .bar {
+  background-color: #fff;
+  height: 3px;
+  width: 25px;
+  margin: 5px;
+}
+
+
+/* main */
+
+/* home */
+#home {  
+  background-image: url("../media/img/f1.png");
+  padding-top: 2em;
+  padding-bottom: 4em;
+}
+
+h2 {
+  font-family: "Doto", Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  text-align: center;
+}
+h1 {
+  font-family: "Doto", Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  text-align: center;
+}
+
+#img-home {
+  display: flex;
+}
+
+#home p,
+footer p {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* footer */
+
+footer {
+  list-style-type: none;
+  margin: 0;
+  padding: 1em;
+  font-family: "Doto", Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  text-align: center;
+  background-color: #10100f55;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  grid-gap: 1em;
+  align-items: last baseline;
+  color: white;
+}
+
+.copyright{
+  font-family: "Doto", Verdana, Geneva, Tahoma, sans-serif;
+  color: #ff0000; 
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #ff0000;
+}
+
+nav a:hover i {
+  color: #ff0000;
+}
+
+.container {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 1%;
+  justify-content: center;
+  width: 100%;
+}
+
+.item {
+  width: 20em;
+  padding-top: 2em;
+}
+
+.img-scuderia {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.img-inicio {
+  width: 50%;
+  height: 50%;
+  display: block;
+  margin: 0 auto;
+
+}
+.img-bandera {
+  width: 20%;
+  height: 20%;
+}
+
+.boton {
+  border-radius: 10px;
+  height: 4em;
+}
+
+.descripcion {
+  display: flex;
+  justify-content: space-around;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  text-align: right;
+  background-color: #ff0000;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 2%;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  min-height: 8.7em;
+  align-items: center;
+}
+
+.descripcionPiloto {
+  justify-content: space-around;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  background-color: #000000;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 2%;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  min-height: 8.7em;
+  align-items: center;
+}
+.descripcionVideo {
+  justify-content: space-around;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  text-align: left;
+  background-color: #000000;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  padding: 2%;
+  background-size: cover;
+  background-position: center; 
+  position: relative;
+  min-height: 8.7em;
+  align-items: center;
+}
+
+
+.boton {
+  margin-left: 1em;
+  font-size: 1.25em;
+  height: 2.5em;
+  background: linear-gradient(180deg, #f0f0f0, rgba(255, 255, 255, 0.65));
+}
+
+.boton:hover {
+  background-color: #ff0000;
+  cursor: pointer;
+}
+
+#equipos {
+  padding-top: 2em;
+  padding-bottom: 4em;
+  background-color: #9b0202;
+}
+
+#equipos > a {
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 1.2em;
+  background-color: #c47a3420;
+  border-radius: 15px;
+  margin: auto;
+  margin-top: 5em;
+}
+
+#pilotos {
+  padding-top: 2em;
+  padding-bottom: 4em;
+  background-color: #ff0000;
+}
+
+/* sección de contacto */
+
+#contacto {
+  padding-top: 2em;
+  padding-bottom: 4em;
+  background: linear-gradient(#ff0000, rgb(0, 0, 0));
+}
+
+#formulario,
+#formulario textarea {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#formulario {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#formulario > * {
+  width: 50%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+#formulario input {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+#formulario textarea {
+  height: 25em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+#formulario button {
+  margin-top: 2em;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+#formulario button:hover {
+  background-color: #ff0000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#formulario input,
+#formulario button,
+#formulario textarea {
+  border-radius: 10px;
+}
+.video-container {
+  display: flex;
+  flex-direction: row; /* Configura el contenedor en horizontal */
+  align-items: center; /* Centra verticalmente el video y el texto */
+  justify-content: space-between; /* Espacio entre el video y la descripción */
+  width: 100%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+/* video del home*/
+.video-container video {
+  width: 70%; /* Ajusta el ancho del video */
+  border-radius: 15px; /* Opcional: añade borde redondeado al video */
+  
+}
+
+/* adaptacion de pantalla */
+@media (max-width: 768px) {
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    top: 60px;
+    left: 0;
+    background-color: #161515;
+}
+
+.video-container video {
+  width: 70%; /* Ajusta el ancho del video */
+  border-radius: 15px; /* Opcional: añade borde redondeado al video */
+  
+}
+.video-container {
+  display: flex;
+  flex-direction: column; /* Configura el contenedor en horizontal */
+  align-items: center; /* Centra verticalmente el video y el texto */
+  justify-content: space-between; /* Espacio entre el video y la descripción */
+  width: 100%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+
+.nav-links.active {
+    display: flex;
+}
+
+.nav-links li {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.menu-toggle {
+    display: flex;
+}
+  footer {
+    grid-template-columns: 1fr;
+  }
+
+  footer section {
+    text-align: center;
+  }
+
+  #ubicacion iframe {
+    width: 50%;
+    height: auto;
+  }
+
+  #formulario > * {
+    width: 80%;
+  }
+}
