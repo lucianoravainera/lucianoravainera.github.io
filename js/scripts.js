@@ -9,14 +9,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // Lista de equipos y sus imágenes correspondientes
 const equiposImagenes = {
-    "Mercedes": "media/img/mercedes.avif",
-    "Ferrari": "media/img/ferrari.avif",
-    "Red Bull": "media/img/redbull.avif",
-    "Aston Martin": "media/img/astonmartin.avif",
-    "McLaren": "media/img/mclaren.avif",
-    "Williams": "media/img/williams.avif",
-    "Alpine F1 Team": "media/img/alpine.avif",
-    "Haas F1 Team": "media/img/haas.avif",
+    "Mercedes": "media/img/Mercedes.avif",
+    "Ferrari": "media/img/Ferrari.avif",
+    "Red Bull": "media/img/Redbull.avif",
+    "Aston Martin": "media/img/Astonmartin.avif",
+    "McLaren": "media/img/McLaren.avif",
+    "Williams": "media/img/Williams.avif",
+    "Alpine F1 Team": "media/img/Alpine.avif",
+    "Haas F1 Team": "media/img/Haas.avif",
     "RB F1 Team": "media/img/rb.avif",
     "Sauber": "media/img/sauber.avif"
 };
