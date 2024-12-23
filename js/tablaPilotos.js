@@ -1,5 +1,5 @@
 // URL de la API
-const url = "http://api.jolpi.ca/ergast/f1/2024/driverstandings";
+const url = "https://api.jolpi.ca/ergast/f1/2024/driverstandings";
 
 // Función para obtener los datos de la API y mostrar en la tabla
 async function obtenerDatos() {
