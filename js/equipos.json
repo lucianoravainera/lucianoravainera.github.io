@@ -1,0 +1,112 @@
+{
+    "Mercedes": {
+      "pilotos": [
+        {"nombre": "Lewis", "apellido": "Hamilton", "nacionalidad": "Británico", "edad": 39, "puntos": 150},
+        {"nombre": "George", "apellido": "Russell", "nacionalidad": "Británico", "edad": 25, "puntos": 100}
+      ],
+      "motor": "Mercedes",
+      "chasis": "W14",
+      "anioIngreso": 1954,
+      "vueltasRapidas": 50,
+      "mundialesGanados": 7
+    },
+    "Ferrari": {
+      "pilotos": [
+        {"nombre": "Charles", "apellido": "Leclerc", "nacionalidad": "Monegasco", "edad": 26, "puntos": 130},
+        {"nombre": "Carlos", "apellido": "Sainz", "nacionalidad": "Español", "edad": 29, "puntos": 110}
+      ],
+      "motor": "Ferrari",
+      "chasis": "SF-23",
+      "anioIngreso": 1950,
+      "vueltasRapidas": 40,
+      "mundialesGanados": 16
+    },
+    "Red Bull": {
+      "pilotos": [
+        {"nombre": "Max", "apellido": "Verstappen", "nacionalidad": "Neerlandés", "edad": 26, "puntos": 200},
+        {"nombre": "Sergio", "apellido": "Pérez", "nacionalidad": "Mexicano", "edad": 34, "puntos": 180}
+      ],
+      "motor": "Honda",
+      "chasis": "RB20",
+      "anioIngreso": 2005,
+      "vueltasRapidas": 60,
+      "mundialesGanados": 5
+    },
+    "Aston Martin": {
+      "pilotos": [
+        {"nombre": "Fernando", "apellido": "Alonso", "nacionalidad": "Español", "edad": 42, "puntos": 140},
+        {"nombre": "Lance", "apellido": "Stroll", "nacionalidad": "Canadiense", "edad": 25, "puntos": 90}
+      ],
+      "motor": "Mercedes",
+      "chasis": "AMR23",
+      "anioIngreso": 2009,
+      "vueltasRapidas": 30,
+      "mundialesGanados": 0
+    },
+    "McLaren": {
+      "pilotos": [
+        {"nombre": "Lando", "apellido": "Norris", "nacionalidad": "Británico", "edad": 24, "puntos": 120},
+        {"nombre": "Oscar", "apellido": "Piastri", "nacionalidad": "Australiano", "edad": 23, "puntos": 85}
+      ],
+      "motor": "Mercedes",
+      "chasis": "MCL60",
+      "anioIngreso": 1966,
+      "vueltasRapidas": 45,
+      "mundialesGanados": 8
+    },
+    "Williams": {
+      "pilotos": [
+        {"nombre": "Alexander", "apellido": "Albon", "nacionalidad": "Tailandés", "edad": 28, "puntos": 80},
+        {"nombre": "Franco", "apellido": "Colapinto", "nacionalidad": "Argentino", "edad": 21, "puntos": 5}
+      ],
+      "motor": "Mercedes",
+      "chasis": "FW45",
+      "anioIngreso": 1977,
+      "vueltasRapidas": 10,
+      "mundialesGanados": 9
+    },
+    "Alpine F1 Team": {
+      "pilotos": [
+        {"nombre": "Esteban", "apellido": "Ocon", "nacionalidad": "Francés", "edad": 27, "puntos": 75},
+        {"nombre": "Pierre", "apellido": "Gasly", "nacionalidad": "Francés", "edad": 28, "puntos": 70}
+      ],
+      "motor": "Alpine",
+      "chasis": "A523",
+      "anioIngreso": 2021,
+      "vueltasRapidas": 20,
+      "mundialesGanados": 0
+    },
+    "Haas F1 Team": {
+      "pilotos": [
+        {"nombre": "Kevin", "apellido": "Magnussen", "nacionalidad": "Danés", "edad": 31, "puntos": 50},
+        {"nombre": "Nikita", "apellido": "Mazepin", "nacionalidad": "Ruso", "edad": 25, "puntos": 5}
+      ],
+      "motor": "Ferrari",
+      "chasis": "VF-23",
+      "anioIngreso": 2016,
+      "vueltasRapidas": 12,
+      "mundialesGanados": 0
+    },
+    "RB F1 Team": {
+      "pilotos": [
+        {"nombre": "Sebastian", "apellido": "Vettel", "nacionalidad": "Alemán", "edad": 37, "puntos": 150},
+        {"nombre": "Daniel", "apellido": "Ricciardo", "nacionalidad": "Australiano", "edad": 35, "puntos": 120}
+      ],
+      "motor": "Renault",
+      "chasis": "RB16",
+      "anioIngreso": 2006,
+      "vueltasRapidas": 35,
+      "mundialesGanados": 4
+    },
+    "Sauber": {
+      "pilotos": [
+        {"nombre": "Kimi", "apellido": "Räikkönen", "nacionalidad": "Finlandés", "edad": 44, "puntos": 70},
+        {"nombre": "Antonio", "apellido": "Giovinazzi", "nacionalidad": "Italiano", "edad": 29, "puntos": 15}
+      ],
+      "motor": "Alfa Romeo",
+      "chasis": "C41",
+      "anioIngreso": 1993,
+      "vueltasRapidas": 8,
+      "mundialesGanados": 0
+    }
+  }

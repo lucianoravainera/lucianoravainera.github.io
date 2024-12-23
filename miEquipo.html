@@ -7,7 +7,6 @@
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
     <script src="js/scripts.js"></script>
-    <script src="js/tablaPilotos.js"></script>
     <title>F1 2024 - Luciano Ravainera</title>
 </head>
 <body>
@@ -26,9 +25,9 @@
                 <li><a href="index.html#acerca">Acerca</a></li>
                 <li><a href="index.html#equipos">Equipos</a></li>
                 <li><a href="index.html#pilotos">Pilotos</a></li>
-                <li><a href="#">Tabla Pilotos</a></li>
+                <li><a href="tablaPilotos.html">Tabla Pilotos</a></li>
                 <li><a href="tablaConstructores.html">Tabla Constructores</a></li>
-                <li><a href="miEquipo.html">Mi Equipo</a></li>
+                <li><a href="#">Mi Equipo</a></li>
                 <li><a href="index.html#contacto">Contacto</a></li>
             </ul>
             <div class="menu-toggle">
@@ -36,34 +35,51 @@
                 <span class="bar"></span>
                 <span class="bar"></span>
             </div>
+             <!-- Imagen del equipo seleccionado -->
         </nav>
     </header>
 
     <main>      
-    <section id="pilotosTabla">
-        <h2>Campeonato de Pilotos 2024 (API F1)</h2>
-        <div class="table-wrapper"></div>
-<table id="driverStandingsTable" >
-    <thead>
-        <tr>
-            <th>Posición</th>
-            <th>Nombre</th>
-            <th>Apellido</th>
-            <th>Nacionalidad</th>
-            <th>Puntos</th>
-        </tr>
-    </thead>
-    <tbody>
-        <!-- Los datos se agregarán aquí dinámicamente -->
-    </tbody>
-</table>
+        <section id="acercaMiEquipo"></section>
+   
+            <div class="descripcionVideo">
+              <h1>Mi Equipo</h1>
+              <p>En esta seccion podras seleccionar tu equipo favorito y ver los datos de diferentes temporadas de la Formula 1, consumiendo datos de la api y de un archivo JSON
+                guardando el eqiupo seleccionado en el localstorage, tambien guarda y muestra el icono del equipo elegido en el navbar</p>
+            </div>
+
+        </section>
+    <section id="miEquipo">
+     <!-- Formulario para elegir un equipo  -->
+     <div class="selectEquipo">
+    <form id="filtersForm">
+        <label for="teamSelect">Selecciona un equipo:</label>
+        <select id="teamSelect">
+            <option value="Mercedes">Mercedes</option>
+            <option value="Ferrari">Ferrari</option>
+            <option value="Red Bull">Red Bull</option>
+            <option value="Aston Martin">Aston Martin</option>
+            <option value="McLaren">McLaren</option>
+            <option value="Williams">Williams</option>
+            <option value="Alpine F1 Team">Alpine</option>
+            <option value="Haas F1 Team">Hass</option>
+            <option value="RB F1 Team">RB</option>
+            <option value="Sauber">Sauber</option>
+        </select>
+        <button type="submit">Filtrar</button>
+    </form>
+    </div>
+  <!-- Contenedor de las cards -->
+  <div id="cardsContainer" class="cards-container">
+    <!-- Las cards se agregarán aquí dinámicamente -->
 </div>
-</section>
+
+    </section>
     </main>
 
 
     <footer>
-        
+        <script src="js/miEquipo.js"></script>
         <section id="copy">        
             <p class="copyright">&copy; 2024 Luciano Ravainera.</p>
         </section>

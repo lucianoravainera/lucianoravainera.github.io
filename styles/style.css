@@ -221,6 +221,117 @@ nav a:hover i {
   align-items: center;
 }
 
+/* Estilo general para el formulario */
+#filtersForm {
+  width: 100%;
+  margin: 20px auto; /* Centra el formulario */
+  padding: 20px;
+  background-color: #960000;
+  border-radius: 8px; /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  font-family: "Roboto", sans-serif;
+}
+/* Estilo de las etiquetas */
+#filtersForm label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+}
+/* Estilo del selector (select) */
+#filtersForm select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px; /* Espaciado entre el selector y el botón */
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333;
+  transition: border-color 0.3s;
+}
+#filtersForm select:focus {
+  border-color: #ff0000; /* Color de borde cuando se enfoca */
+  outline: none;
+}
+/* Estilo del botón */
+#filtersForm button {
+  width: 100%;
+  padding: 12px;
+  background-color: #ff0000; /* Color de fondo */
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+#filtersForm button:hover {
+  background-color: #45a049; /* Color de fondo cuando se pasa el mouse */
+}
+/* Estilo para el espacio entre los elementos */
+#filtersForm > * {
+  margin-bottom: 10px;
+}
+
+/* Estilo para el contenedor de las cards */
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+/* Estilo para cada tarjeta */
+.card {
+  background-color: #b80404;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 250px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s;
+}
+.card:hover {
+  transform: translateY(-10px);
+}
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+/* Títulos y textos dentro de las tarjetas */
+.card h3 {
+  font-size: 20px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+.card p {
+  font-size: 14px;
+  color: #000000;
+  margin: 5px 0;
+}
+.card ul {
+  list-style-type: none;
+  padding: 0;
+}
+.card li {
+  font-size: 12px;
+  color: #000000;
+}
+
+
+#teamImage {
+  /* margin-left: 10px; */
+  border-radius: 50%;
+  /* object-fit: cover; */
+  background-color: #7a7a79;
+}
+
+
+
 
 .boton {
   margin-left: 1em;
@@ -259,6 +370,78 @@ nav a:hover i {
   padding-bottom: 4em;
   background-color: #ff0000;
 }
+/* seccion tabla de pilotos */
+#pilotosTabla {
+  padding-top: 2em;
+  padding-bottom: 4em;
+  background-color: #8b2828;
+}
+
+.table-wrapper {
+  -webkit-overflow-scrolling: touch;
+  overflow-x: auto;
+}
+
+table {
+  margin: 0 0 2rem 0;
+  width: 100%;
+}
+
+  table tbody tr {
+    border: solid 1px #ffffff;
+    border-left: 0;
+    border-right: 0;
+  }
+
+    table tbody tr:nth-child(2n + 1) {
+      background-color: rgba(255, 255, 255, 0.075);
+    }
+
+  table td {
+    padding: 0.75em 0.75em;
+  }
+
+  table th {
+    color: #ffffff;
+    font-size: 0.9em;
+    font-weight: 600;
+    padding: 0 0.75em 0.75em 0.75em;
+    text-align: left;
+  }
+
+  table thead {
+    border-bottom: solid 2px #ffffff;
+  }
+
+  table tfoot {
+    border-top: solid 2px #ffffff;
+  }
+
+  table.alt {
+    border-collapse: separate;
+  }
+
+    table.alt tbody tr td {
+      border: solid 1px #ffffff;
+      border-left-width: 0;
+      border-top-width: 0;
+    }
+
+      table.alt tbody tr td:first-child {
+        border-left-width: 1px;
+      }
+
+    table.alt tbody tr:first-child td {
+      border-top-width: 1px;
+    }
+
+    table.alt thead {
+      border-bottom: 0;
+    }
+
+    table.alt tfoot {
+      border-top: 0;
+    }
 
 /* sección de contacto */
 
