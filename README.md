@@ -1,4 +1,6 @@
-# F1 2024
+# F1 2025
+
+- Se actualizo con datos de la temporada 2025 (en curso)
 
 - Este sitio está pensada para ver los datos de la temporada 2024 de Formula 1 como equipos, pilotos, tabla de posiciones de pilotos y constructores.
 

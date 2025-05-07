@@ -16,7 +16,7 @@ async function obtenerDatosEquipo() {
 
 // Función para obtener los standings de un equipo y año específicos
 async function obtenerDatos(team) {
-    const url = `${baseURL}/2024/constructorstandings`;
+    const url = `${baseURL}/2025/constructorstandings`;
 
     try {
         // Obtener los datos de la API
